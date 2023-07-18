@@ -1,0 +1,98 @@
+#mp3{ position: relative;
+    width: 45%;
+    margin: auto;
+    border: solid 1px;
+    height: 120vh;
+  
+    
+}
+
+
+#cover{
+   
+   margin-top: 6%;
+    background-image: url("../img/cover/aurora-g5263a6704_1280.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+
+
+.arrow{
+    margin-top: 6%;
+margin-left: 10%;
+width: 79%;
+height: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-between;
+    /* border: solid green; */
+    position: absolute;
+    font-size: 6em;
+    color: rgba(255, 255, 255, 0.507);
+    
+}
+
+.boutons{
+  
+    margin:auto ;
+    width: 60%;
+    /* border: solid purple; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.boutons button{
+    color: rgb(175, 175, 175);
+    width: 10%;
+    font-size: 40px;
+    border: none;
+    background-color: white;
+}
+
+
+.sec{
+    margin-top: 5%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.duree{
+    margin-left: 15% ;
+    margin-top: 3%;
+ height: 1%;
+    width: 70%;
+    border: solid rgba(102, 102, 102, 0.432);
+   background-color: rgba(168, 168, 168, 0.507);
+    border-radius: 10px;
+
+    
+}
+
+ .progress{
+    width: 40%;
+height: 100%;
+border-radius: 10px;
+ background-color: rgb(182, 182, 182);
+}
+
+.txt{
+    padding-top: 20px;
+   margin:auto ;
+    width: 70%;
+    
+}
+
+#tag{
+    padding-top: 20px;
+    margin:auto ;
+     width: 70%; 
+     
+
+}

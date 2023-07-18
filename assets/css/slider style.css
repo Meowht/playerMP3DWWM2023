@@ -1,0 +1,61 @@
+#slider img {
+    vertical-align: bottom;
+}
+
+
+#slider {
+    overflow: hidden;
+    position: relative;
+    border: red solid .2rem;
+
+    color: rgb(44, 233, 27);
+    width: 80%;
+    font-size: 50px;
+
+}
+
+#imageA,
+#texteA,
+#imageB,
+#texteB {
+    position: absolute;
+
+
+
+}
+
+#imageA,
+#imageB {
+
+    width: 100%;
+}
+
+.trans{
+        transition:  all .5s  ;
+}
+
+.swipeLeft {
+  
+    transform: translateX(-100%);
+}
+
+.swipeRight{
+    transform: translateX(100%);
+}
+
+.swipeTop{
+    transform: translateY(-100%);
+}
+
+.swipeDown{
+    transform: translateY(100%);
+}
+
+.fadeOut{
+    opacity: 0;
+}
+
+
+
+
+
