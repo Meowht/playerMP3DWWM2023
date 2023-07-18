@@ -1,0 +1,32 @@
+#slider img{
+    vertical-align: bottom;
+}
+#slider{
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+}
+#imageA,#texteA,#imageB,#texteB{
+    position: absolute;
+}
+#imageA,#imageB{
+    width: 100%;
+}
+.trans{
+    transition: all 0.5s;
+}
+.swipeLeft{
+    transform: translateX(-100%);
+}
+.swipeRight{
+    transform: translateX(100%);
+}
+.swipeUp{
+    transform: translateY(-100%);
+}
+.swipeDown{
+    transform: translateY(100%);
+}
+.fadeOut{
+    opacity: 0;
+}
