@@ -4,7 +4,7 @@ const playlist_hiphop = [
         "author" : " Rammstein",
         "cover" : "./assets/img/cover/maxresdefault.jpg",
         "year" : 1997,
-        "audio" : "./assets/audio/blabla.mp3",
+        "audio" : "./assets/audio/Rammstein - Du Hast (Official 4K Video).mp3",
         "genre" : [' Dance Metal'],
         "description" : "lorem"
 
@@ -28,6 +28,18 @@ const playlist_hiphop = [
         "year" : 1998,
         "audio" : "./assets/audio/Vengaboys - Boom, Boom, Boom, Boom!!.mp3",
         "genre" : ['eurodance'],
+        "description" : "lorem"
+
+    },
+
+
+    {
+        "title" : "Super Mario Bros. Theme Song",
+        "author" : "Koji Kondo Nintendo",
+        "cover" : "./assets/img/cover/SI_3DSVC_SuperMarioBros_image1600w.jpg",
+        "year" : 1985,
+        "audio" : "./assets/audio/Super Mario Bros. Theme Song.mp3",
+        "genre" : ['OST 8bits'],
         "description" : "lorem"
 
     },
